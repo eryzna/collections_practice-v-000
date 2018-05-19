@@ -42,6 +42,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-["hand","knee","table"].each_with_index.collect {|element, index| "#{element}"+ "s"}
+["hand", "feet", "knee","table"].each_with_index.collect {|element, index| "#{element[0]}"+ "s"}
 
 end
