@@ -45,6 +45,7 @@ def add_s(array)
   s_array=[]
   array.each_with_index do |element, index|
     s_array << element + "s"
+    s_array.pop[5]
   end
   s_array
   #array.each_with_index.collect {|element, index| element +"s"}
